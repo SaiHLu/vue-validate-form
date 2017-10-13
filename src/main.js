@@ -5,9 +5,11 @@ import App from './App'
 import vueRouter from 'vue-router'
 import SignUp from './components/SignUp'
 import Info from './components/Info'
+import veeValidate from 'vee-validate'
 
 Vue.config.productionTip = false
 
+Vue.use(veeValidate)
 Vue.use(vueRouter)
 
 const router = new vueRouter({
